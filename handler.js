@@ -334,7 +334,7 @@ return
 }
 let adminMode = global.db.data.chats[m.chat].modoadmin
 let curiosity = `${plugins.botAdmin || plugins.admin || plugins.group || plugins || noPrefix || hl ||  m.text.slice(0, 1) == hl || plugins.command}`
-if (adminMode && !isOwner && !isROwner && m.isGroup && !isAdmin && curiosity) return 
+if (adminMode && !isOwner && !isROwner && m.isGroup && !isAdmin && atro) return 
 if (plugin.rowner && plugin.owner && !(isROwner || isOwner)) {
 fail('owner', m, this)
 continue
@@ -575,7 +575,7 @@ let chat = global.db.data.chats[msg.chat] || {}
 if (chat.delete)
 return
 await this.reply(msg.chat, `🔎 BORRO UN MENSAJE
-🧃 *NOMBRE:* @${participant.split`@`[0]} 
+✳️ *NOMBRE:* @${participant.split`@`[0]} 
 `.trim(), msg, {
 mentions: [participant]
 })
