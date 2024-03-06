@@ -20,12 +20,18 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   user.registered = true
 let sn = createHash('md5').update(m.sender).digest('hex').slice(0, 6)	
 m.react('📩') 
-let regbot = `
-🗃️ *R E G I S T R A D O* 🗃️
-🪁 *Nombre:* ${name}
-🎨 *Edad* : ${age} años
-🥏 *Numero de serie*:
-${sn}`
+let regbot = ``┏┅ ━━━━━━━━━━━━ ┅ ━
+┇「 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐂𝐈𝐎𝐍 」
+┣┅ ━━━━━━━━━━━━ ┅ ━
+┃ 📌 *𝙽𝙾𝙼𝙱𝚁𝙴:* ${name}
+┃ 👤 *𝙴𝙳𝙰𝙳:* ${age} años
+┃ ❇️ *𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴 𝚂𝙴𝚁𝙸𝙴:* 
+┃ 🔅 ${sn}
+┣┅ ━━━━━━━━━━━━ ┅ ━
+┃ ⚠️ ¡𝚃𝚄 𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴 𝚂𝙴𝚁𝙸𝙴 𝚃𝙴 𝚂𝙴𝚁𝚅𝙸𝚁𝙰 
+┃ 𝙿𝙾𝚁 𝚂𝙸 𝙳𝙴𝚂𝙴𝙰𝚂 𝙱𝙾𝚁𝚁𝙰𝚁 
+┃ 𝚃𝚄 𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙾 𝙴𝙽 𝙴𝙻 𝙱𝙾𝚃!
+┗┅ ━━━━━━━━━━━━ ┅ ━`;
 await m.reply(regbot)
 // await conn.sendUrl(m.chat, regbot, m, { externalAdReply: { mediaType: 1, renderLargerThumbnail: true, thumbnail: pp, thumbnailUrl: pp, title: 'Registrado 📩', }})
 
