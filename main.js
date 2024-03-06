@@ -289,7 +289,7 @@ console.log(chalk.yellow('⚠️ㅤEscanea este codigo QR, el codigo QR expira e
 if (connection == 'open') {
 console.log(chalk.yellowBright('\n╭───────────────────────────◉\n│\n│Conectado correctamente al WhatsApp.\n│\n╰───────────────────────────◉\n'))}
 if (conn.user.connect) {
-conn.fakeReply('5217294888993@s.whatsapp.net', '😃', '0@s.whatsapp.net', '😅 Soy CuriosityBot\nRecientemente me e conectado', '0@s.whatsapp.net')
+conn.fakeReply('51935531943@s.whatsapp.net', '🟢', '0@s.whatsapp.net', '☘︎ Soy AtroLitBot\nRecientemente me e conectado', '0@s.whatsapp.net')
 conn.user.connect = true;
 }
 let reason = new Boom(lastDisconnect?.error)?.output?.statusCode;
@@ -358,8 +358,8 @@ conn.ev.off('connection.update', conn.connectionUpdate);
 conn.ev.off('creds.update', conn.credsUpdate)
 }
 
-conn.welcome = '*• Hola, Gracias por unirte!!*\n*━━━━━━━━━━━━━━━━━━━*\n\n🍧 *• Nombre:* @user\n🗓️ *• Fecha:* @date\n⏰ *• Hora:* @time\n\n*⚠️  Recuerda leer la descripción*\n@readMore\n@desc'
-conn.bye = '*• Gracias por haber sido parte del grupo*\n*━━━━━━━━━━━━━━━━━━━━━━━━━*\n\n🍧 *• Nombre:* @user\n🗓️ *• Fecha:* @date\n⏰ *• Hora:* @time'
+conn.welcome = '*• Hola, Gracias por unirte!!*\n*━━━━━━━━━━━━━━━━━━━*\n\n✅ *• Nombre:* @user\n🗓️ *• Fecha:* @date\n⏰ *• Hora:* @time\n\n*⚠️  Recuerda leer la descripción*\n@readMore\n@desc'
+conn.bye = '*• Gracias por haber sido parte del grupo*\n*━━━━━━━━━━━━━━━━━━━━━━━━━*\n\n✅ *• Nombre:* @user\n🗓️ *• Fecha:* @date\n⏰ *• Hora:* @time'
 conn.spromote = '*@user* ¡Se suma al grupo de admins¡'
 conn.sdemote = '*@user* ¡Abandona el grupo!'
 conn.sDesc = '¡Se ha modificado la descripción!\n\n*Nueva descripción:* @desc'
