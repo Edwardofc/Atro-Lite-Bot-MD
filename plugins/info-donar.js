@@ -1,12 +1,15 @@
 var handler = async (m, { conn, command }) => {
 
-let str = `🚩 *Donar*
+let str = `💸 *Donar*
 
-⬡ *PAYPAL*
+💳 *PAYPAL*
 ${paypal}
 
-⬡ *Creador del bot*
-wa.me/5217294888993
+👑 *Creador del bot*
+wa.me/51935531943
+
+💰 *Yape*
+ - *Puedes comunicarse con mi dueño y pedir su yape* 
 
 _Puedes apoyar el bot dando tu estrellita en nuestro repositorio_
 ${md}`
