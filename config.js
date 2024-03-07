@@ -9,10 +9,8 @@ import { fileURLToPath, pathToFileURL } from 'url'
 
 global.owner = [
 ['51935531943', '𝗖𝗿𝗲𝗮𝗱𝗼𝗿 💖', true], 
-['524531287294', '𝗔𝗴𝗿𝗮𝗱𝗲𝗰𝗶𝗺𝗶𝗲𝗻𝘁𝗼 🍧', true],
-['573013482814', '𝗢𝘄𝗻𝗲𝗿 🍭', true],
-['00'],
-['00']]
+['524531287294', '𝗔𝘇𝗮𝗺𝗶𝗝𝘀 🍧', true],
+['573013482814', '𝗢𝘄𝗻𝗲𝗿 🍭', true]]
 
 //BETA: Si quiere evitar escribir el número que será bot en la consola, agregué desde aquí entonces:
 //Sólo aplica para opción 2 (ser bot con código de texto de 8 digitos)
