@@ -1,9 +1,7 @@
 /*no quites los creditos!, no seas rata
 
  Credits to:
-* AzamiJs
-* Elrebelde21
-* GataNina-Li */
+CuriosityBot-MD*/
 
 import { watchFile, unwatchFile } from 'fs'
 import chalk from 'chalk'
