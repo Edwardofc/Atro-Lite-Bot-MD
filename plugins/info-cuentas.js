@@ -1,7 +1,7 @@
 var handler = async (m, { conn, command }) => {
 
 if (command == 'cuentas' || command == 'cuentasoficiales' || command == 'cuentasof') {
-let str = `🚩 *CUENTAS*
+let str = `🔱 *CUENTAS*
 
 ⬡ *Github*
 ${md}
@@ -22,15 +22,15 @@ await conn.sendMessage(m.chat, { text: str, contextInfo: { externalAdReply: { ti
 }
 
 if (command == 'grupos') {
-let text = `🚩 *Grupos oficiales*
+let text = `🫂 *Grupos oficiales*
 
-⬡ *CuriosityBot-MD*
+⬡ *Atro-Lite-Bot-MD*
 ${group}
 
-⬡ *Enlaces Curiosity*
+⬡ *Enlaces Atro-Lit*
 ${group2}
 
-⬡ *Curiosity Global*
+⬡ *Atro-Lit Global*
 ${group3}
 
 🎌 *Colaboraciones*
@@ -38,27 +38,16 @@ ${group3}
 ⬡ *Multi Bots*
 ${group4}
 
-⬡ *NovaBot - CuriosityBot*
+⬡ *AtroLitBot - CuriosityBot*
 ${group5}
 
-⬡ *GataBot - CuriosityBot*
-${group6}
-
-⬡ *Curiosity - Criwilop*
-${group7}
-
-⬡ *CuriosityBot - SakuraBot*
-${group8}
-
-⬡ *OnyxBot - CuriosityBot*
-${group9}
 
 ✨ *Canales oficiales*
 
-⬡ *CuriosityBot*
+⬡ *Atro-Lite-Bot*
 ${channel}
 
-⬡ *INFINITY-WA*
+⬡ *ATRO-LITE-WA*
 ${channel2}`
 
 conn.reply(m.chat, text, m, fake, )
