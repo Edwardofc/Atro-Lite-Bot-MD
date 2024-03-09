@@ -1,4 +1,4 @@
-## Atro : Lite - Bot - MD ✨🦉
+Q## Atro : Lite - Bot - MD ✨🦉
 
 <p align="center">
 <img src="https://telegra.ph/file/d7e24ffa346e3ed2d0c37.jpg" alt="" width="900"/>
@@ -112,19 +112,19 @@ npm start
 
 - ### Activar En Replit
 
-[![Run on Repl.it](https://repl.it/badge/github/AzamiJs/CuriosityBot-MD)](https://repl.it/github/AzamiJs/CuriosityBot-MD) 
+[![Run on Repl.it](https://repl.it/badge/github/Edwardofc/Atro-Lite-Bot-MD)](https://repl.it/github/Edwardofc/Atro-Lite-Bot-MD) 
 ----  
 
 - ### Activar En Koyeb
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=https://github.com/AzamiJs/CuriosityBot-MD&branch=master&name=curiositybot)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=https://github.com/Edwardofc/Atro-Lite-Bot-MD&branch=master&name=curiositybot)
 ----  
 - ### Activar En Render
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2FAzamiJs%2FCuriosityBot-MD) 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2FEdwardofc%Atro-Lite-Bot-MD) 
 ----  
 - ### ☁️ Vortexus Cloud - Host
-> Integra CuriosityBot-MD en un servicio de alojamiento 24/7 online 
+> Integra Atro-Lite-Bot-MD en un servicio de alojamiento 24/7 online 
 
 <a href="https://vortexuscloud.com"><img src="https://telegra.ph/file/4bd3d8d14e5683073d4f3.jpg" height="125px"></a>
 ### vortexus cloud
@@ -136,13 +136,13 @@ npm start
 - **Contacto:** [`Aquí`](https://wa.me/258858119033) 
 - **Canal de WhatsApp:** [`Aquí`](https://whatsapp.com/channel/0029Va8ZD6O3mFXxTPl1m13A)
 
-- [x] **Configuración** <details><summary>**Ajustes del Servidor - CuriosityBot-MD**</summary><img src="https://telegra.ph/file/524ab6e15b912d9cdb777.jpg"></details>
+- [x] **Configuración** <details><summary>**Ajustes del Servidor - Atro-Lite-Bot-MD**</summary><img src="https://telegra.ph/file/524ab6e15b912d9cdb777.jpg"></details>
 ------------------
 
 - ### ☂️ Activar En Heroku ☂️
 para usuarios del heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Azami19/CuriosityBot-MD1)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Edwardofc/Atro-Lite-Bot-MD1)
 
 #### Heroku Buildpack
 | BuildPack | LINK |
@@ -155,7 +155,7 @@ para usuarios del heroku
 </details>
 
 ### EDITOR Y PROPIETARIO DEL BOT
-<a href="https://github.com/AzamiJs"><img src="https://github.com/AzamiJs.png" width="250" height="250" alt="Azami19"/></a>
+<a href="https://github.com/Edwardofc"><img src="https://github.com/Edwardofc.png" width="250" height="250" alt="Azami19"/></a>
 
 - #### COLABORADORES 
 <a href="https://github.com/AzamiJs/CuriosityBot-MD/graphs/contributors">
