@@ -24,6 +24,7 @@ Me apaciona en todo 🫣
   <div align="left">
        <a href="https://github.com/Edwardofc/" target="_blank"><img src="https://shields.io/badge/zhwzein-111111.svg?&style=for-the-badge&logo=github"></a>  
        <a
+
 </details>
 
 <a href="https://github.com/Edwardofc/Atro-Lite-Bot-MD"><img title="Stars" src="https://img.shields.io/github/stars/Edwardofc/atro-lite-Bot-MD?color=ff4500&style=flat-square" /></a>
