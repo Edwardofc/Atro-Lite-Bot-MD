@@ -18,8 +18,6 @@ Me apaciona en todo 🫣
        <a href="https://github.com/Edwardofc/" target="_blank"><img src="https://shields.io/badge/Edwardofc-111111.svg?&style=for-the-badge&logo=github"></a>  
        <a
 
-</details>
-
 <a href="https://github.com/Edwardofc/Atro-Lite-Bot-MD"><img title="Stars" src="https://img.shields.io/github/stars/Edwardofc/atro-lite-Bot-MD?color=ff4500&style=flat-square" /></a>
 <a href="https://github.com/zhwzein/Killua-Zoldyck/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Edwardofc/Atro-Lite-Bot-MD?color=ff4500&style=flat-square" /></a>
 <a href="https://github.com/zhwzein/Killua-Zoldyck/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/edwardofc/Atro-Lite-Bot-MD?label=watchers&color=ff4500&style=flat-square" /></a> <br>
