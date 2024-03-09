@@ -9,16 +9,12 @@ Me Llamo Edwardofc
 Me apaciona en todo 🫣
 <br>
 
-<!-- Stats -->
-<details><summary><b>My stats</b></summary><br>
+<!-- Mi Estadística -->
 
-![](https://komarev.com/ghpvc/?username=zhwzein&color=000000)  
+![](https://komarev.com/ghpvc/?username=Edwardofc&color=000000)  
 <img alt = "GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=Edwardofc&show_icons=true&hide=issues&icon_color=C9D1D9&hide_border=false&title_color=C9D1D9&text_color=8B948D&bg_color=0D1117&theme=dark">
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=zhwzein&theme=dark)](https://git.io/streak-stats)  
-</details>
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=Edwardofc&theme=dark)](https://git.io/streak-stats)  
 
-  <a href="https://zenzapis.xyz/" target="_blank"><img src="https://i.ibb.co/PN3Xf0c/textprome-160c4ce97b249f.jpg" width="440"></a><br>  
-  <div align="left">
        <a href="https://github.com/Edwardofc/" target="_blank"><img src="https://shields.io/badge/Edwardofc-111111.svg?&style=for-the-badge&logo=github"></a>  
        <a
 
