@@ -20,7 +20,7 @@ Me apaciona en todo 🫣
 <a href="https://github.com/zhwzein/Killua-Zoldyck/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/edwardofc/Atro-Lite-Bot-MD?label=watchers&color=ff4500&style=flat-square" /></a> <br>
 
 
-<a href="https://www.youtube.com/@EdwardDc">
+<a href="https://youtube.com/@EdwardDc07?si=q2tv3yvnUFnM4IF4">
 <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube">
 </a>
 <a href="https://instagram.com/edwarddc05">
