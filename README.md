@@ -161,8 +161,3 @@ para usuarios del heroku
 <a href="https://github.com/AzamiJs/CuriosityBot-MD/graphs/contributors">
 <img src="https://contrib.rocks/image?repo=AzamiJs/CuriosityBot-MD" /> 
 </a>
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
