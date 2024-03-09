@@ -38,11 +38,7 @@
 > Comandos Para Instalar Atro-Lite-Bot-MD Forma Automatica Por Termux.
 
 <!-- Installation -->
-<b><details><summary>Windows Installation</summary></b>  
-<b>Requirements:</b>
-* Download & Install Git [`Click here`](https://git-scm.com/downloads)
-* Download & Install NodeJS [`Click here`](https://nodejs.org/en/download)
-* Download & Install FFmpeg [`Click here`](https://ffmpeg.org/download.html)
+<b><details><summary>Termux Installation</summary></b>  
  
 ```bash
 termux-setup-storage
