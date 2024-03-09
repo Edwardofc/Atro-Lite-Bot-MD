@@ -26,11 +26,7 @@ Me apaciona en todo 🫣
 <a href="https://instagram.com/edwarddc05">
 <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
 </a>
-<div align="left">
        <a href="https://github.com/Edwardofc/" target="_blank"><img src="https://shields.io/badge/Edwardofc-111111.svg?&style=for-the-badge&logo=github"></a>  
-       <a
-
-
 
 ### <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="🎌 Prueba El Bot Aqui" width="42" height="42"> 🎌 Prueba El Bot Aqui
 
