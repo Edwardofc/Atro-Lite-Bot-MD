@@ -15,10 +15,6 @@ Me apaciona en todo 🫣
 <img alt = "GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=Edwardofc&show_icons=true&hide=issues&icon_color=C9D1D9&hide_border=false&title_color=C9D1D9&text_color=8B948D&bg_color=0D1117&theme=dark">
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=Edwardofc&theme=dark)](https://git.io/streak-stats)  
 
-  <div align="left">
-       <a href="https://github.com/Edwardofc/" target="_blank"><img src="https://shields.io/badge/Edwardofc-111111.svg?&style=for-the-badge&logo=github"></a>  
-       <a
-
 <a href="https://github.com/Edwardofc/Atro-Lite-Bot-MD"><img title="Stars" src="https://img.shields.io/github/stars/Edwardofc/atro-lite-Bot-MD?color=ff4500&style=flat-square" /></a>
 <a href="https://github.com/zhwzein/Killua-Zoldyck/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Edwardofc/Atro-Lite-Bot-MD?color=ff4500&style=flat-square" /></a>
 <a href="https://github.com/zhwzein/Killua-Zoldyck/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/edwardofc/Atro-Lite-Bot-MD?label=watchers&color=ff4500&style=flat-square" /></a> <br>
