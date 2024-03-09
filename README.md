@@ -44,11 +44,11 @@
 termux-setup-storage
 ```
 ```bash
-apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/AzamiJs/CuriosityBot-MD/master/curiosity.sh | bash
+apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/Edwardofc/Atro-Lite-Bot-MD/master/atro.sh | bash
 ```
 
-- #### 🚩 Instalacion Manual Por Termux
-[![blog](https://img.shields.io/badge/Instalacion-Manual-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/qRb9ElGT8mM?si=XxSt-Y8CTQs1Imzl?feature=share)
+- #### 🦉📍 Instalacion Manual Por Termux
+
 > Escribe Estos Comandos Uno Por Uno
 
 ```bash
@@ -64,7 +64,7 @@ pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
 ```
 
 ```bash
-git clone https://github.com/AzamiJs/CuriosityBot-MD && cd CuriosityBot-MD && yarn install && npm install
+git clone https://github.com/Edwardofc/Atro-Lite-Bot-MD && cd Atro-Lite-bot-MD && yarn install && npm install
 ```
 
 ```bash
@@ -78,24 +78,24 @@ npm update
 npm start
 ```
 
-- #### 🚩 Activar En Caso De Detenerse En Termux
+- #### 🦉📍 Activar En Caso De Detenerse En Termux
 > Escribe Estos Comandos Uno Por Uno
 ```bash
 > cd
-> cd CuriosityBot-MD
+> cd Atro-Lite-bot-MD
 > npm start
 ```
 
-- #### 🚩 Obtener Otro Codigo Qr
+- #### 🦉📍 Obtener Otro Codigo Qr
 > 𝙴𝚂𝙲𝚁𝙸𝙱𝙴 𝙴𝚂𝚃𝙾𝚂 𝙲𝙾𝙼𝙰𝙽𝙳𝙾𝚂 𝚄𝙽𝙾 𝙿𝙾𝚁 𝚄𝙽𝙾:
 ```bash
-> cd CuriosityBot-MD
+> cd Atro-Lite-bot-MD
 > rm -rf sessions
 > npm start
 ```
 
-- #### 🎌 Para Activar 24/7 (Termux)
-> Este Comando Deve Ir En La Carpeta CuriosityBot-MD
+- #### 🦉🕕 Para Activar 24/7 (Termux)
+> Este Comando Deve Ir En La Carpeta Atro-Lite-Bot-MD
 ```bash
 > npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 ```
