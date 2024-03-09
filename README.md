@@ -100,8 +100,9 @@ npm start
 > npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 ```
 ----
+</details>
 
-<b><details><summary>🦉Instalación </summary></b>
+<b><details><summary>🦉Instalación Servidores</summary></b>
 
 - ### 🦉📍 Instalacion Por Code Dpace
 
@@ -151,6 +152,7 @@ para usuarios del heroku
 
 ***
 
+</details>
 
 ### EDITOR Y PROPIETARIO DEL BOT
 <a href="https://github.com/AzamiJs"><img src="https://github.com/AzamiJs.png" width="250" height="250" alt="Azami19"/></a>
