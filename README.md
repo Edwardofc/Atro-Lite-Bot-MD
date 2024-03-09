@@ -2,13 +2,11 @@
 
 <p align="center">
 <img src="https://telegra.ph/file/d7e24ffa346e3ed2d0c37.jpg" alt="" width="900"/>
-</p>
+</p> 
 
-# <img src="" width="100"> ZAHWAZEIN'S PROFILE  
-
-I'm Zein
+Me Llamo Edwardofc
 <br>
-I'm passionated about nothing. thx
+Me apaciona en todo 🫣
 <br>
 
 <!-- Stats -->
