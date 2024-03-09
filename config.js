@@ -22,12 +22,12 @@ global.mods = []
 global.prems = []
 
 //Aqui encuentras los nombres del bot
-global.packname = 'ATRO-BOT';
-global.author = 'Atro : Bot';
-global.wm = 'Atro Bot';
-global.wm2 = `Atro + Bot`
-global.azami = 'Atro';
-global.cb = '*✅ Un momento*';
+global.packname = 'Ⓐ︎ 𝖠𝗍𝗋𝗈𝖡𝗈𝗍𝖫𝗂𝗍𝖾-𝖬𝖣';
+global.author = '𝖠𝗍𝗋𝗈 : 𝖡𝗈𝗍 : 𝖫𝗂𝗍𝖾';
+global.wm = 'Ⓐ︎ 𝖠𝗍𝗋𝗈 𝖫𝗂𝗍𝖾';
+global.wm2 = `𝖠𝗍𝗋𝗈𝖡𝗈𝗍𝖫𝗂𝗍𝖾`
+global.azami = 'Ⓐ︎ 𝖠𝗍𝗋𝗈';
+global.cb = '*🚀 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼...*';
 
 
 //Las Versiones Y Entre Otros
