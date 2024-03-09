@@ -21,29 +21,28 @@ global.rosas = fs.readFileSync('./storage/imagenes/rosas.jpg')
 global.refran = fs.readFileSync('./storage/imagenes/refran.jpg')
 global.linksjpg = fs.readFileSync('./storage/imagenes/Links.jpg')
 
-var img = 'https://telegra.ph/file/d837e687c894ff494b8d0.jpg'; var img1 = 'https://telegra.ph/file/0cdc7553a40170768bb62.jpg'; var img2 = 'https://telegra.ph/file/f65120cc170ec0bd17954.'
-
-global.ImgAll = [img, img1, img2]
+var img = 'https://telegra.ph/file/aeb0c837ddcfc8c808fda.jpg'; var img1 = 'https://telegra.ph/file/054b8f1d6dc5b2840fe35.jpg'; var img2 = 'https://telegra.ph/file/18972e0c6186cb21c4ef3.jpg'; var img3 =
+global.ImgAll = [img, img1, img2, img3]
 
 //Enlaces
-global.yt = 'https://www.youtube.com/@Azami_YT'
-global.ig = 'https://instagram.com/azami_dev'
-global.md = 'https://github.com/AzamiJs/CuriosityBot-MD'
-global.paypal = 'https://paypal.me/Azamijs'
-global.git = 'https://github.com/AzamiJs'
-global.linkwabot = 'https://wa.me/message/QRWLLJZ2PH3MG1'
-global.email = 'thecuriositybot@gmail.com'
-global.group = 'https://chat.whatsapp.com/LCAUbkf5kUz7jSxO6FADMU' //Grupo ofc
-global.group2 = 'https://chat.whatsapp.com/B8RJAm16U2EISSDETrPivq' //enlace curiosity
-global.group3 = 'https://chat.whatsapp.com/J1R402WH1N0Hdl3S0NDEYu' //Curiosity global
-global.group4 = 'https://chat.whatsapp.com/HXOGzELFOVXFM1KrSoKdqH' //colaboración multi bots
-global.group5 = 'https://chat.whatsapp.com/E9qJfvlLjENKAxnhII9rao' //Colaboración CuriosityBot - NovaBot
-global.group6 = 'https://chat.whatsapp.com/KQtWZDVfosTKbheIlndLBN' //Colaboración GataBot - CuriosityBot
-global.group7 = 'https://chat.whatsapp.com/BXdy1TYcQ5NLs4Xy9jNavH' //Colaboración CuriosityBot - Criwilop
-global.group8 = 'https://chat.whatsapp.com/JNdlCEUKLqHAw87sOqfKmO' //Colaboración CuriosityBot - SakuraBot
-global.group9 = 'https://chat.whatsapp.com/EvRZx8BOI2RFcV3KLFGOU8' //Colaboración OnyxBot - CuriosityBot
-global.channel = 'https://whatsapp.com/channel/0029VaB4w2ZFHWpwgyEe3w2k'
-global.channel2 = 'https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A'
+global.yt = 'https://www.youtube.com/@EdwardDc'
+global.ig = 'https://instagram.com/Edwarddc05'
+global.md = 'https://github.com/Edwardofc/Atro-Lite-Bot-MD'
+global.paypal = 'https://paypal.me/EdwardDcS'
+global.git = 'https://github.com/Edwardofc'
+global.linkwabot = 'https://wa.me/51904049358'
+global.email = 'edwarddsh483@gmail.com'
+global.group = 'https://chat.whatsapp.com/IPXgNBsAyYD1XVKnRexkF5' //Grupo ofc
+global.group2 = '' //enlace 
+global.group3 = '' //
+global.group4 = '' //colaboración
+global.group5 = '' //Colaboración c- N
+global.group6 = '' //Colaboración Gb - C
+global.group7 = '' //Colaboración C - C
+global.group8 = '' //Colaboración C - S
+global.group9 = '' //Colaboración O-
+global.channel = 'https://whatsapp.com/channel/0029VaRj4RE7Noa96ltI1k2z'
+global.channel2 = ''
 global.linkSity = [yt, ig, md, paypal, git, channel, channel2]
 
 //Raíz
