@@ -23,12 +23,7 @@ Me apaciona en todo 🫣
   <a href="https://zenzapis.xyz/" target="_blank"><img src="https://i.ibb.co/PN3Xf0c/textprome-160c4ce97b249f.jpg" width="440"></a><br>  
   <div align="left">
        <a href="https://github.com/Edwardofc/" target="_blank"><img src="https://shields.io/badge/zhwzein-111111.svg?&style=for-the-badge&logo=github"></a>  
-       <a href="https://www.instagram.com/zhwzein/" target="_blank"><img src="https://shields.io/badge/zhwzein-111111.svg?&style=for-the-badge&logo=instagram"></a>  
-       <a href="https://twitter.com/zhwzein/" target="_blank"><img src="https://shields.io/badge/zhwzein-111111.svg?&style=for-the-badge&logo=twitter"></a>  
-       <a href="https://www.facebook.com/zhwzein.me/" target="_blank"><img src="https://shields.io/badge/zhwzein-111111.svg?&style=for-the-badge&logo=facebook"></a>  
-  </div>
-
-
+       <a
 </details>
 
 <a href="https://github.com/Edwardofc/Atro-Lite-Bot-MD"><img title="Stars" src="https://img.shields.io/github/stars/Edwardofc/atro-lite-Bot-MD?color=ff4500&style=flat-square" /></a>
