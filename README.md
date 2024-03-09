@@ -37,8 +37,8 @@
 
 > Comandos Para Instalar Atro-Lite-Bot-MD Forma Automatica Por Termux.
 
-<!-- Installation -->
-<b><details><summary>Termux Installation</summary></b>  
+<!-- Instalación-->
+<b><details><summary>🦉Instalación Termux</summary></b>  
  
 ```bash
 termux-setup-storage
@@ -100,10 +100,14 @@ npm start
 > npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 ```
 ----
-- ### 🎌 Instalacion Por Code Dpace
+
+<b><details><summary>🦉Instalación </summary></b>
+
+- ### 🦉📍 Instalacion Por Code Dpace
 
 [`CREAR SERVIDOR`](https://github.com/codespaces/new?skip_quickstart=true&machine=basicLinux32gb&repo=674862525&ref=main&geo=UsEast)
 ***
+
 
 - ### Activar En Replit
 
