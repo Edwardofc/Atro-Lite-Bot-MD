@@ -1,4 +1,4 @@
-## Atro : Bot - MD ✨
+## Atro : Lite - Bot - MD ✨🦉
 
 <p align="center">
 <img src="https://telegra.ph/file/d7e24ffa346e3ed2d0c37.jpg" alt="" width="900"/>
