@@ -28,15 +28,22 @@
 ***
 
 ### `⚙️ Configuraciones ⚙️`
-- Cambiar Los Numeros De Los Owner [aqui](https://github.com/AzamiJs/CuriosityBot-MD/blob/main/config.js#L6)
-- Puede Cambiar A La Última Versión De Baileys Editando El package.json [aqui](https://github.com/AzamiJs/CuriosityBot-MD/blob/main/package.json#L42)
+- Cambiar Los Numeros De Los Owner [aqui](https://github.com/Edwardofc/Atro-Lite-Bot-MD/blob/main/config.js#L6)
+- Puede Cambiar A La Última Versión De Baileys Editando El package.json [aqui](https://github.com/Edwardofc/Atro-Lite-Bot-MD/blob/main/package.json#L42)
 ***
 
 - #### 🚩 Instalacion Automatica Por Termux
 [![blog](https://img.shields.io/badge/Instalacion-Automatica-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/smoWgg28wPk?si=ck-t9tvKrJQ0yZbS?feature=share)
 
-> Comandos Para Instalar CuriosityBot Forma Automatica Por Termux.
+> Comandos Para Instalar Atro-Lite-Bot-MD Forma Automatica Por Termux.
 
+<!-- Installation -->
+<b><details><summary>Windows Installation</summary></b>  
+<b>Requirements:</b>
+* Download & Install Git [`Click here`](https://git-scm.com/downloads)
+* Download & Install NodeJS [`Click here`](https://nodejs.org/en/download)
+* Download & Install FFmpeg [`Click here`](https://ffmpeg.org/download.html)
+ 
 ```bash
 termux-setup-storage
 ```
