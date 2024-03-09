@@ -1,7 +1,7 @@
 ## Atro : Bot - MD ✨
 
 <p align="center">
-<img src="https://telegra.ph/file/04b7a17f4f7aaa302b2d8.jpg" alt="" width="900"/>
+<img src="https://telegra.ph/file/d7e24ffa346e3ed2d0c37.jpg" alt="" width="900"/>
 </p>
 
 <a href="https://github.com/Edwardofc/Atro-Lite-Bot-MD"><img title="Stars" src="https://img.shields.io/github/stars/Edwardofc/atro-lite-Bot-MD?color=ff4500&style=flat-square" /></a>
