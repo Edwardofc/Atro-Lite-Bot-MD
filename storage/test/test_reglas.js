@@ -1,16 +1,16 @@
 var handler = async (m, { conn, usedPrefix, command}) => {
 
-let Reglas = `🎌 *Respeta las reglas de CuriosityBot*\n
-⬡ No llamar
-⬡ No hacer spam
-⬡ Contacta al creador si es necesario
-⬡ Pedir permiso para añadir el bot a un grupo
+let Reglas = `🦉 *Respeta las reglas de Atro-Lite-bot-MD*\n
+📳 No llamar
+📵 No hacer spam
+🔆 Contacta al creador si es necesario
+❇️ Pedir permiso para el bot a tu grupo
 
-🚩 *Si no cumples con las reglas del bot, seras bloqueado.*
+⚠️ *Si no cumples con las reglas del bot, seras bloqueado.*
 
-*Puedea apoyarnos dejando una estrellita 🌟 al repositorio oficial de CuriosityBot.*
+*Puedea apoyarnos dejando una estrellita 🌟 al repositorio oficial de Atro-Lite-bot-MD.*
 
-https://github.com/AzamiJs/CuriosityBot-MD`.trim()
+https://github.com/Edwardofc/Atro-Lite-Bot-MD`.trim()
 await conn.reply(m.chat, Reglas, m, fake, )
 
 }
