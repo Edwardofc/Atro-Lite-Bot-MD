@@ -13,7 +13,7 @@ Me apaciona en todo 🫣
 <details><summary><b>My stats</b></summary><br>
 
 ![](https://komarev.com/ghpvc/?username=zhwzein&color=000000)  
-<img alt = "GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=zhwzein&show_icons=true&hide=issues&icon_color=C9D1D9&hide_border=false&title_color=C9D1D9&text_color=8B948D&bg_color=0D1117&theme=dark">
+<img alt = "GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=Edwardofc&show_icons=true&hide=issues&icon_color=C9D1D9&hide_border=false&title_color=C9D1D9&text_color=8B948D&bg_color=0D1117&theme=dark">
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=zhwzein&theme=dark)](https://git.io/streak-stats)  
 </details>
 
