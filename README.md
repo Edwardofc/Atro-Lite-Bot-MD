@@ -4,7 +4,7 @@
 <img src="https://telegra.ph/file/d7e24ffa346e3ed2d0c37.jpg" alt="" width="900"/>
 </p>
 
-# <img src="https://telegra.ph/file/d05323bdfe63a675ab564.mp4" width="100"> ZAHWAZEIN'S PROFILE  
+# <img src="" width="100"> ZAHWAZEIN'S PROFILE  
 
 I'm Zein
 <br>
