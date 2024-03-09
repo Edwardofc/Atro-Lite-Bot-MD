@@ -21,7 +21,7 @@ global.rosas = fs.readFileSync('./storage/imagenes/rosas.jpg')
 global.refran = fs.readFileSync('./storage/imagenes/refran.jpg')
 global.linksjpg = fs.readFileSync('./storage/imagenes/Links.jpg')
 
-var img = 'https://telegra.ph/file/d837e687c894ff494b8d0.jpg'; var img1 = 'https://telegra.ph/file/0cdc7553a40170768bb62.jpg'; var img2 = 'https://telegra.ph/file/f65120cc170ec0bd17954.
+var img = 'https://telegra.ph/file/d837e687c894ff494b8d0.jpg'; var img1 = 'https://telegra.ph/file/0cdc7553a40170768bb62.jpg'; var img2 = 'https://telegra.ph/file/f65120cc170ec0bd17954.'
 
 global.ImgAll = [img, img1, img2]
 
