@@ -123,7 +123,7 @@ git clone https://github.com/Edwardofc/Atro-Lite-bot-MD.git
 echo -e "\033[38;5;51m\033[01mLa clonación se ha descargado e instalado correctamente.\n\033[0m"
 
 echo -e "\033[38;5;188m\033[01mCambiando al directorio del repositorio!!\n\033[0m" 
-cd CuriosityBot-MD
+cd Atro-Lite-bot-MD
 
 echo -e "\e[38;5;117m
 █░█ █▀█ █▀▄ ▄▀█ ▀█▀ █▀▀   █▄█ ▄▀█ █▀█ █▄░█
