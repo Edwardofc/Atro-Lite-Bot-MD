@@ -28,7 +28,6 @@ Me apaciona en todo 🫣
 </a>
        <a href="https://github.com/Edwardofc/" target="_blank"><img src="https://shields.io/badge/Edwardofc-111111.svg?&style=for-the-badge&logo=github"></a>  
 
-### <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="🎌 Prueba El Bot Aqui" width="42" height="42"> 🎌 Prueba El Bot Aqui
 
 > Antes De Instalar El Bot Quieres Usarlo?. Usalo Aqui!
 
