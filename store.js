@@ -8,10 +8,10 @@ global.__filename = function filename(pathURL = import.meta.url, rmPrefix = plat
 const __dirname = global.__dirname(import.meta.url)
 
 //Imagenes
-global.imagen1 = fs.readFileSync('./storage/logos/Menu1.jpg')
-global.imagen2 = fs.readFileSync('./storage/logos/Menu2.jpg')
-global.imagen3 = fs.readFileSync('./storage/logos/Menu3.jpg')
-global.imagen4 = fs.readFileSync('./storage/logos/Menu4.jpg')
+global.imagen1 = fs.readFileSync('./storage/logos/menu1.jpg')
+global.imagen2 = fs.readFileSync('./storage/logos/menu2.jpg')
+global.imagen3 = fs.readFileSync('./storage/logos/menu3.jpg')
+global.imagen4 = fs.readFileSync('./storage/logos/menu4.jpg')
 global.icon = fs.readFileSync('./storage/logos/icon.webp')
 
 global.config = fs.readFileSync('./storage/imagenes/configuraciones.jpg')
