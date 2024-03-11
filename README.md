@@ -14,10 +14,7 @@ Me apaciona en todo 🫣
 [![GitHub Streak](https://streak-stats.demolab.com?user=Edwardofc%20&theme=github-light&hide_border=true&locale=es&exclude_days=Sun%2CMon%2CTue%2CWed%2CThu%2CFri%2CSat)](https://git.io/streak-stats)
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=Edwardofc&theme=dark)](https://git.io/streak-stats)  
 
-<a href="https://github.com/Edwardofc/Atro-Lite-Bot-MD"><img title="Stars" src="https://img.shields.io/github/stars/Edwardofc/atro-lite-Bot-MD?color=ff4500&style=flat-square" /></a>
-<a href="https://github.com/zhwzein/Killua-Zoldyck/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Edwardofc/Atro-Lite-Bot-MD?color=ff4500&style=flat-square" /></a>
-<a href="https://github.com/zhwzein/Killua-Zoldyck/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/edwardofc/Atro-Lite-Bot-MD?label=watchers&color=ff4500&style=flat-square" /></a> <br>
-
+<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=Edwardofc%20&theme=github-light&hide_border=true&locale=es&exclude_days=Sun%2CMon%2CTue%2CWed%2CThu%2CFri%2CSat&excludeDaysLabel=000000" alt="GitHub Streak" /></a>
 
 <a href="https://youtube.com/@EdwardDc07?si=q2tv3yvnUFnM4IF4">
 <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube">
