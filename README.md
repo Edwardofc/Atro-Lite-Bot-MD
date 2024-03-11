@@ -11,8 +11,7 @@ Me apaciona en todo 🫣
 
 <!-- Mi Estadística -->
 
-![](https://komarev.com/ghpvc/?username=Edwardofc&color=000000)  
-<img alt = "GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=Edwardofc&show_icons=true&hide=issues&icon_color=C9D1D9&hide_border=false&title_color=C9D1D9&text_color=8B948D&bg_color=0D1117&theme=dark">
+[![GitHub Streak](https://streak-stats.demolab.com?user=Edwardofc%20&theme=github-light&hide_border=true&locale=es&exclude_days=Sun%2CMon%2CTue%2CWed%2CThu%2CFri%2CSat)](https://git.io/streak-stats)
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=Edwardofc&theme=dark)](https://git.io/streak-stats)  
 
 <a href="https://github.com/Edwardofc/Atro-Lite-Bot-MD"><img title="Stars" src="https://img.shields.io/github/stars/Edwardofc/atro-lite-Bot-MD?color=ff4500&style=flat-square" /></a>
