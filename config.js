@@ -56,6 +56,8 @@ global.taguser = '@' + m.sender.split("@s.whatsapp.net")
 global.fotos = ImgAll.getRandom()
 global.enlaces = linkSity.getRandom()
 
+global.fake = { contextInfo:{ forwardingScore: 0, externalAdReply: {title: saludo + nombre, body: dev, sourceUrl: md, thumbnailUrl: fotos }}}
+
 let file = fileURLToPath(import.meta.url);
 watchFile(file, () => { unwatchFile(file);
 console.log(chalk.yellow("Se actualizo el archivo config.js"));
