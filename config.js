@@ -53,6 +53,9 @@ global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', s
 global.nombre = conn.getName(m.sender)
 global.taguser = '@' + m.sender.split("@s.whatsapp.net")
 
+global.fotos = ImgAll.getRandom()
+global.enlaces = linkSity.getRandom()
+
 let file = fileURLToPath(import.meta.url);
 watchFile(file, () => { unwatchFile(file);
 console.log(chalk.yellow("Se actualizo el archivo config.js"));
