@@ -291,7 +291,7 @@ console.log(chalk.yellowBright('\n╭──────────────�
 if (conn.user.connect) {
 conn.fakeReply('5217294888993@s.whatsapp.net', '🍧', '0@s.whatsapp.net', '🧃 Soy AtroBot\nRecientemente me e conectado', '0@s.whatsapp.net')
 conn.user.connect = true;
-await
+//await conn.groupAcceptInvite('JNdlCEUKLqHAw87sOqfKmO');
 }
 let reason = new Boom(lastDisconnect?.error)?.output?.statusCode;
 if (reason == 405) { 
