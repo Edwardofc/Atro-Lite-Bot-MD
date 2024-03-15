@@ -1,5 +1,5 @@
 # Código creado por @gata_dios
-# Modificado por @AzamiJ
+# Modificado por @AzamiJs
 
 #!/data/data/com.termux/files/usr/bin/bash 
 # Interpretación determinada para la ejecución     
