@@ -70,6 +70,8 @@ pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
 ```bash
 git clone https://github.com/Edwardofc/Atro-Lite-Bot-MD && cd Atro-Lite-bot-MD && yarn install && npm install
 ```
+```bash
+yarn install
 
 ```bash
 ls
