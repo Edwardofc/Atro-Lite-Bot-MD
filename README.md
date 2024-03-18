@@ -72,7 +72,7 @@ git clone https://github.com/Edwardofc/Atro-Lite-Bot-MD && cd Atro-Lite-bot-MD &
 ```
 ```bash
 yarn install
-
+```
 ```bash
 ls
 ```
