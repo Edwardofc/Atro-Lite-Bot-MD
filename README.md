@@ -58,7 +58,7 @@ termux-setup-storage
 apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
 ```
 ```bash
-git clone https://github.com/Edwardofc/Atro-Bot-Lite && cd Atro-Bot-Lite
+git clone https://github.com/Edwardofc/Atro-Bot-Lite-MD && cd Atro-Bot-Lite-MD
 ```
 ```bash
 yarn install && npm install
