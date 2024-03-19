@@ -37,7 +37,6 @@ Me apaciona en todo 🫣
 ***
 
 - #### 🚩 Instalacion Automatica Por Termux
-[![blog](https://img.shields.io/badge/Instalacion-Automatica-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/smoWgg28wPk?si=ck-t9tvKrJQ0yZbS?feature=share)
 
 > Comandos Para Instalar Atro-Lite-Bot-MD Forma Automatica Por Termux.
 
@@ -52,34 +51,18 @@ apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - 
 ```
 
 - #### 🦉📍 Instalacion Manual Por Termux
-
-> Escribe Estos Comandos Uno Por Uno
-
 ```bash
 termux-setup-storage
 ```
-
 ```bash
-apt-get update -y && apt-get upgrade -y
-```
-
-```bash
-pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
-```
-
-```bash
-git clone https://github.com/Edwardofc/Atro-Lite-Bot-MD && cd Atro-Lite-bot-MD && yarn install && npm install
+apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
 ```
 ```bash
-yarn install
+git clone https://github.com/Edwardofc/Atro-Bot-Lite && cd Atro-Bot-Lite
 ```
 ```bash
-ls
+yarn install && npm install
 ```
-```bash
-npm update
-```
-
 ```bash
 npm start
 ```
