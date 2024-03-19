@@ -14,8 +14,8 @@ echo -e "\033[38;5;51mPreparando instalación...\n\033[0m"
 echo -e "\033[38;5;188m\033[01mInstalando dependencias!!\n\033[0m" 
 echo -e "\e[38;5;117m
 
-# █ █▄░█ █▀ ▀█▀ ▄▀█ █░░ █░░   █▀▀ █ ▀█▀
-# █ █░▀█ ▄█ ░█░ █▀█ █▄▄ █▄▄   █▄█ █ ░█░\n\e[0m"
+█ █▄░█ █▀ ▀█▀ ▄▀█ █░░ █░░   █▀▀ █ ▀█▀
+█ █░▀█ ▄█ ░█░ █▀█ █▄▄ █▄▄   █▄█ █ ░█░\n\e[0m"
 
 if command -v git >/dev/null 2>&1; then
 echo -e "\033[38;5;229mGit ya estaba instalado anteriormente.\033[0m"
