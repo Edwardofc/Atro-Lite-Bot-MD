@@ -74,20 +74,6 @@ npm start
 > cd Atro-Lite-bot-MD
 > npm start
 ```
-
-- #### 🦉📍 Obtener Otro Codigo Qr
-> 𝙴𝚂𝙲𝚁𝙸𝙱𝙴 𝙴𝚂𝚃𝙾𝚂 𝙲𝙾𝙼𝙰𝙽𝙳𝙾𝚂 𝚄𝙽𝙾 𝙿𝙾𝚁 𝚄𝙽𝙾:
-```bash
-> cd Atro-Lite-bot-MD
-> rm -rf sessions
-> npm start
-```
-
-- #### 🦉🕕 Para Activar 24/7 (Termux)
-> Este Comando Deve Ir En La Carpeta Atro-Lite-Bot-MD
-```bash
-> npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
-```
 ----
 </details>
 
