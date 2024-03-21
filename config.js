@@ -39,26 +39,6 @@ global.menudi = ["⛶","❏","⫹⫺"];
 global.dev = "Atro ~ Lite";
 global.devnum = "+51 935531943";
 
-var ase = new Date(); var hour = ase.getHours(); switch(hour){ case 0: hour = 'Linda noche'; break; case 1: hour = 'Linda noche'; break; case 2: hour = 'Linda noche'; break; case 3: hour = 'Linda mañana'; break; case 4: hour = 'Linda mañana'; break; case 5: hour = 'Linda mañana'; break; case 6: hour = 'Linda mañana'; break; case 7: hour = 'Linda mañana'; break; case 8: hour = 'Linda mañana'; break; case 9: hour = 'Linda mañana'; break; case 10: hour = 'Buen dia'; break; case 11: hour = 'Buen dia'; break; case 12: hour = 'Buen dia'; break; case 13: hour = 'Buen dia'; break; case 14: hour = 'Bonita tarde'; break; case 15: hour = 'Bonita tarde'; break; case 16: hour = 'Bonita tarde'; break; case 17: hour = 'Bonito anochecer'; break; case 18: hour = 'Linda noche'; break; case 19: hour = 'Linda noche'; break; case 20: hour = 'Linda noche'; break; case 21: hour = 'Linda noche'; break; case 22: hour = 'Linda noche'; break; case 23: hour = 'Linda noche'; break;}
-global.saludo = '🦉' + hour;
-
-global.d = new Date(new Date + 3600000)
-global.locale = 'es'
-global.dia = d.toLocaleDateString(locale, {weekday: 'long'})
-global.fecha = d.toLocaleDateString('es', {day: 'numeric', month: 'numeric', year: 'numeric'})
-global.mes = d.toLocaleDateString('es', {month: 'long'})
-global.año = d.toLocaleDateString('es', {year: 'numeric'})
-global.tiempo = d.toLocaleString('es-pe', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true})
-
--//global.nombre = conn.getName(m.sender)
--global.nombre = ' '
--global.taguser = '@' + m.sender.split("@s.whatsapp.net")
-
-global.fotos = ImgAll.getRandom()
-global.enlaces = linkSity.getRandom()
-
-global.fake = { contextInfo:{ forwardingScore: 0, externalAdReply: {title: saludo + nombre, body: dev, sourceUrl: md, thumbnailUrl: fotos }}}
-
 let file = fileURLToPath(import.meta.url);
 watchFile(file, () => { unwatchFile(file);
 console.log(chalk.yellow("Se actualizo el archivo config.js"));
