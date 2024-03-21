@@ -131,6 +131,7 @@ console.log('Por favor, seleccione solo 1 o 2.')
 opcion = opcion
 }
 
+console.info = () => {}
 const connectionOptions = {
 logger: pino({ level: 'silent' }),
 printQRInTerminal: opcion == '1' ? true : false,
@@ -140,9 +141,8 @@ auth: {
 creds: state.creds,
 keys: makeCacheableSignalKeyStore(state.keys, Pino({ level: "fatal" }).child({ level: "fatal" })),
 },
-markOnlineOnConnect: false, 
+markOnlineOnConnect: true, 
 generateHighQualityLinkPreview: true, 
-version,
 syncFullHistory: true,  
 getMessage: async (clave) => {
 let jid = jidNormalizedUser(clave.remoteJid)
@@ -150,7 +150,9 @@ let msg = await store.loadMessage(jid, clave.id)
 return msg?.message || ""
 },
 msgRetryCounterCache, //Resolver mensajes en espera
+msgRetryCounterMap, // Determinar si se debe volver a intentar enviar un mensaje o no
 defaultQueryTimeoutMs: undefined, 
+version,  
 }
 
 // Código adaptado para la compatibilidad de
@@ -165,7 +167,7 @@ if (MethodMobile) throw new Error('No se puede usar un código de emparejamiento
 let addNumber
 if (!!phoneNumber) {
 addNumber = phoneNumber.replace(/[^0-9]/g, '')
-if (!Object.keys(PHONENUMBER_MCC).some(v => numeroTelefono.startsWith(v))) {
+if (!Object.keys(PHONENUMBER_MCC).some(v => addNumber.startsWith(v))) {
 console.log(chalk.bgBlack(chalk.bold.redBright("Configure el archivo 'config.js' porque su número de WhatsApp no comienza con el código de país, Ejemplo: +593xxxx")))
 process.exit(0)
 }} else {
@@ -178,7 +180,7 @@ break
 } else {
 console.log(chalk.bgBlack(chalk.bold.redBright("Asegúrese de agregar el código de país.")))
 }}
-//rl.close()
+rl.close()
 }
 
 setTimeout(async () => {
@@ -191,7 +193,7 @@ rl.close()
 
 conn.isInit = false
 conn.well = false
-conn.user.connect = true;
+//conn.user.connect = true;
 conn.logger.info(`🔵 H E C H O\n`)
 
 if (!opts['test']) {
@@ -199,7 +201,7 @@ if (global.db) {
 setInterval(async () => {
 if (global.db.data) await global.db.write()
 if (opts['autocleartmp'] && (global.support || {}).find) (tmp = [os.tmpdir(), 'tmp', 'jadibts'], tmp.forEach((filename) => cp.spawn('find', [filename, '-amin', '3', '-type', 'f', '-delete'])))
-}, 60 * 1000)
+}, 10 * 1000)
 }}
 
 if (opts['server']) (await import('./server.js')).default(global.conn, PORT)
@@ -219,7 +221,7 @@ async function clearTmp() {
 setInterval(async () => {
 await clearTmp()
 console.log(chalk.cyan(`AUTOCLEAR │ BASURA ELIMINADA\n`))
-}, 60000) //1 munto
+}, 600) //1 munto
 
 function purgeSession() {
 let prekey = []
@@ -288,11 +290,10 @@ console.log(chalk.yellow('⚠️ㅤEscanea este codigo QR, el codigo QR expira e
  }}
 if (connection == 'open') {
 console.log(chalk.yellowBright('\n╭───────────────────────────◉\n│\n│Conectado correctamente al WhatsApp.\n│\n╰───────────────────────────◉\n'))}
-if (conn.user.connect) {
-conn.fakeReply('5217294888993@s.whatsapp.net', '🍧', '0@s.whatsapp.net', '🧃 Soy AtroBot\nRecientemente me e conectado', '0@s.whatsapp.net')
-conn.user.connect = true;
-//await conn.groupAcceptInvite('JNdlCEUKLqHAw87sOqfKmO');
-}
+//if (conn.user.connect) {
+//conn.fakeReply('5217294888993@s.whatsapp.net', '😃', '0@s.whatsapp.net', '😅 Soy CuriosityBot\nRecientemente me e conectado', '0@s.whatsapp.net')
+//conn.user.connect = true;
+//}
 let reason = new Boom(lastDisconnect?.error)?.output?.statusCode;
 if (reason == 405) { 
 await fs.unlinkSync("./sessions/" + "creds.json")
@@ -359,15 +360,15 @@ conn.ev.off('connection.update', conn.connectionUpdate);
 conn.ev.off('creds.update', conn.credsUpdate)
 }
 
-conn.welcome = '*• Hola, Gracias por unirte!!*\n*━━━━━━━━━━━━━━━━━━━*\n\n💖 *• Nombre:* @user\n🗓️ *• Fecha:* @date\n⏰ *• Hora:* @time\n\n*❗️ Recuerde leer la descripción*\n@readMore\n@desc'
-conn.bye = '*• Gracias por haber sido parte del grupo*\n*━━━━━━━━━━━━━━━━━━━━━━━━━*\n\n💖 *• Nombre:* @user\n🗓️ *• Fecha:* @date\n⏰ *• Hora:* @time'
+conn.welcome = '*• Hola, Gracias por unirte!!*\n*━━━━━━━━━━━━━━━━━━━*\n\n🍧 *• Nombre:* @user\n🗓️ *• Fecha:* @date\n⏰ *• Hora:* @time\n\n*⚠️  Recuerda leer la descripción*\n@readMore\n@desc'
+conn.bye = '*• Gracias por haber sido parte del grupo*\n*━━━━━━━━━━━━━━━━━━━━━━━━━*\n\n🍧 *• Nombre:* @user\n🗓️ *• Fecha:* @date\n⏰ *• Hora:* @time'
 conn.spromote = '*@user* ¡Se suma al grupo de admins¡'
 conn.sdemote = '*@user* ¡Abandona el grupo!'
 conn.sDesc = '¡Se ha modificado la descripción!\n\n*Nueva descripción:* @desc'
 conn.sSubject = '¡Se ha modificado el título del grupo!'
 conn.sIcon = '¡Se ha cambiado la foto del grupo!'
 conn.sRevoke = '¡Se ha actualizado el enlace del grupo!*\n*Nuevo enlace:* @revoke'
-
+        
 
 conn.handler = handler.handler.bind(global.conn)
 conn.participantsUpdate = handler.participantsUpdate.bind(global.conn)
