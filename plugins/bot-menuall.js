@@ -22,26 +22,25 @@ let tags = {
 'imagenes': 'Imagenes 🖼️',
 }
 const defaultMenu = {
-before: `╭─❒ *Usuario* 🌳
-│🗃 *Nombre:* %name
-│🔧 *Limite:* %diamond
-│📍 *Levelup:* %level
-│⚔️ *Rango:* %role
-│🧰 *Experincia:* %exp
-│
-├❒ *InfoBot* 🎈
-│🧩 *Creador:* EdwardOfc
-│⏰️ *Tiempo Activo:* %muptime
-│👨‍💻 *Registrados:* %totalreg
-│
-├❒ *Fecha* 📅
-│⚡️ *Date:* %date
-╰──────────────
-`.trimStart(),
+before: `> ╭─❒ 「 *Usuario* 👤 」
+> │🗃️ *Cliente:* %name
+> │🔧 *Limite:* %diamond
+> │🔆 *Nivel:* %level
+> │⚔️ *Rango:* %role
+> │📇 *Exp:* %exp
+> │
+> ├─❒ 「 *InfoBot* 📂 」
+> │👑 *Creador:* Edwardofc
+> │⏳ *Tiempo Activo:* %muptime
+> │🗂️ *Registrados:* %rtotalreg
+> │
+> ├─❒ 「 *Hoy* 📅 」
+> │🗒️ *Fecha:* %date
+> ╰──────────────
 %readmore`.trimStart(),
 
 header: '> ╭─❒ 「 *%category* 」',
-body: '> │🦉  %cmd',
+body: '> │֍  %cmd',
 footer: '> ╰───────────\n',
 after: `
 `,
