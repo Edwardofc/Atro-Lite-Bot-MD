@@ -15,12 +15,12 @@ const { name, author } = require(join(__dirname, './package.json')) // https://w
 const { say } = cfonts
 const rl = createInterface(process.stdin, process.stdout)
 
-say('Atro\nLite\nBot\nMD', {
+say('AtroLiteBot-MD', {
 font: 'block',
 align: 'center',
 colors: ['magenta', 'cyan']
 })
-say(`Bot: ${name}\nVersion: 1.0.5\nCreador: Edward ~ ofc\nNumero: +51 935531943\nEmail: edwarddsh483@gmail.com`, {
+say(`Bot: ${name}\nBy: Edwardofc`, {
 font: 'console',
 gradient: ['blue', 'magenta']
 })
